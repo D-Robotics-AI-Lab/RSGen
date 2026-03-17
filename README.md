@@ -4,7 +4,7 @@ Xianbao Hou<sup>1, 2, ∗</sup>, Yonghao He<sup>2, ∗, ‡</sup>, Zeyd Boukhers
 
 <sup>1</sup> Soochow University, <sup>2</sup> D-Robotics, <sup>3</sup> Fraunhofer Institute for Applied Information Technology, <sup>4</sup> School of Mathematical and Computing Sciences, <sup>5</sup> Institute of Automation, Chinese Academy of Sciences
 
-<sup>∗</sup> Equal Contribution, <sup>†</sup> Corresponding Author, <sup>‡ </sup> Project Leader 
+<sup>∗</sup> Equal Contribution, <sup>†</sup> Corresponding Author, <sup>‡ </sup> Project Lead
 
 <a href="https://arxiv.org/abs/2603.15484" target="_blank">
   <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper on Arxiv">
@@ -27,7 +27,13 @@ Diffusion models have significantly mitigated the impact of annotated data scarc
 </div>
 RSGen consists of two key components: the Edge2Edge module, designed for generating diverse edge maps, and the L2I FGControl module, which incorporates edge guidance to ensure accurate layout alignment. Together, these components address the challenges of limited diversity and spatial misalignment in remote sensing image generation.
 
+## Getting Started
+
+
 ## TODOs
+- [x] Release the paper on arXiv.
+- [x] Release the complete code.
+- [ ] Release generated images by RSGen.
 
 
 
@@ -36,7 +42,7 @@ RSGen consists of two key components: the Edge2Edge module, designed for generat
 If you have any questions about this paper or code, feel free to email me at xbhou2024@stu.suda.edu.cn.
 
 ## Acknowledgements
-
+Our work is based on stable [CC-Diff](https://github.com/AZZMM/CC-Diff), [MIGC](https://github.com/limuloo/MIGC), [FICGen](https://github.com/fayewong666999/FICGen), We appreciate their excellent contributions for Layout-to-Image generation..
 
 ## Citation
 
