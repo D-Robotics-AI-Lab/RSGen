@@ -1,7 +1,7 @@
 <div align="center">
 <h1>RSGen: Enhancing Layout-Driven Remote Sensing Image Generation with Diverse Edge Guidance</h1>
 </div>
-<a href="https://arxiv.org/abs/2509.02973" target="_blank">
+<a href="[https://arxiv.org/abs/2509.02973](https://arxiv.org/abs/2603.15484)" target="_blank">
   <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper on Arxiv">
 </a>
 
