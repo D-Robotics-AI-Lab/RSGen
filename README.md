@@ -43,7 +43,7 @@ RSGen consists of two key components: the Edge2Edge module, designed for generat
 If you have any questions about this paper or code, feel free to email me at xbhou2024@stu.suda.edu.cn.
 
 ## Acknowledgements
-Our work is based on stable [CC-Diff](https://github.com/AZZMM/CC-Diff), [MIGC](https://github.com/limuloo/MIGC), [FICGen](https://github.com/fayewong666999/FICGen), We appreciate their excellent contributions for Layout-to-Image generation..
+Our work is based on stable [CC-Diff](https://github.com/AZZMM/CC-Diff), [MIGC](https://github.com/limuloo/MIGC), [FICGen](https://github.com/fayewong666999/FICGen), We appreciate their excellent contributions for Layout-to-Image generation.
 
 ## Citation
 
