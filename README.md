@@ -30,6 +30,9 @@ RSGen consists of two key components: the Edge2Edge module, designed for generat
 
 ## Getting Started
 step 1. Refer to install.md to install the environment.
+step 2. Refer to datasets.md to prepare [DIOR-RSVG], [DOTA], [HRSC2016] datasets.
+step 3. Refer to train.md for training.
+step 3. Refer to eval.md for evaluation.
 
 ## TODOs
 - [x] Release the paper on arXiv.
@@ -46,9 +49,11 @@ If you have any questions about this paper or code, feel free to email me at xbh
 Our work is based on stable [CC-Diff](https://github.com/AZZMM/CC-Diff), [MIGC](https://github.com/limuloo/MIGC), [FICGen](https://github.com/fayewong666999/FICGen), We appreciate their excellent contributions for Layout-to-Image generation.
 
 ## Citation
-
 ```
-
-
-
-
+@article{hou2026rsgen,
+  title={RSGen: Enhancing Layout-Driven Remote Sensing Image Generation with Diverse Edge Guidance},
+  author={Hou, Xianbao and He, Yonghao and Boukhers, Zeyd and See, John and Su, Hu and Sui, Wei and Yang, Cong},
+  journal={arXiv preprint arXiv:2603.15484},
+  year={2026}
+}
+```
