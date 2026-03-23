@@ -1,5 +1,4 @@
-FROM vemlp-cn-beijing.cr.volces.com/preset-images/pytorch:2.1.0-cu12.1.0-py3.9-ubuntu20.04
-ENV PIP_INDEX_URL=https://mirrors.ivolces.com/pypi/simple/
+FROM pytorch:2.1.0-cu12.1.0-py3.9-ubuntu20.04
 ENV TORCH_CUDA_ARCH_LIST="9.0"
 ENV MMCV_WITH_OPS=1
 ENV FORCE_CUDA=1

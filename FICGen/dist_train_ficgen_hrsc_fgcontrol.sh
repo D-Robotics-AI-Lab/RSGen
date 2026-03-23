@@ -1,4 +1,3 @@
-export HOME=.chche
 accelerate launch --main_process_port=13854 --gpu_ids 0,1,2,3,4,5,6,7 --num_processes 8 train_ficgen_fgcontrol_hrsc.py \
     --pretrained_model_name_or_path=/data/vepfs/public/xianbao01.hou/model/sd1-5 \
     --train_data_dir=/data/vepfs/public/xianbao01.hou/dataset/HRSC2016/HRSC2016/Train/AllImages \
