@@ -29,7 +29,7 @@ Diffusion models have significantly mitigated the impact of annotated data scarc
 RSGen consists of two key components: the Edge2Edge module, designed for generating diverse edge maps, and the L2I FGControl module, which incorporates edge guidance to ensure accurate layout alignment. Together, these components address the challenges of limited diversity and spatial misalignment in remote sensing image generation.
 
 ## Getting Started
-step 1. Refer to install.md to install the environment.
+step 1. Refer to [install.md](./docs/install.md) to install the environment.
 
 step 2. Refer to datasets.md to prepare [DIOR-RSVG], [DOTA], [HRSC2016] datasets.
 
