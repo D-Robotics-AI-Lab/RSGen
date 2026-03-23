@@ -4,6 +4,7 @@
 ```bash
 cd CC-Diff
 cd eval
+```
 Install the required package:
 ```bash
 pip install torch-fidelity
