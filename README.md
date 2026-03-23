@@ -39,7 +39,7 @@ step 4. Refer to [eval.md](./docs/eval.md) for evaluation.
 
 ## TODOs
 - [x] Release the paper on arXiv.
-- [x] Release the FGControl code.
+- [x] Release the FGControl code. (FICGen)
 - [ ] Release the complete code.
 - [ ] Release generated images by RSGen.
 
