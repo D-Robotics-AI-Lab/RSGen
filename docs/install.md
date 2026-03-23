@@ -12,5 +12,3 @@ conda activate rsgen
 ```bash
 # install the running environment dependencies
 pip install -r requirement.txt
-cd diffusers
-pip install -e .
