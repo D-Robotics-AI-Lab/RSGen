@@ -513,7 +513,7 @@ def parse_args():
         "--image_encoder_path",
         type=str,
         # default='CLIP-ViT-H-14',
-        default='/data/',
+        default='/data/vepfs/users/xianbao01.hou/.cache/huggingface/hub/models--openai--clip-vit-large-patch14/snapshots/32bd64288804d66eefd0ccbe215aa642df71cc41',
     )
     args = parser.parse_args()
     env_local_rank = int(os.environ.get("LOCAL_RANK", -1))
@@ -634,7 +634,7 @@ def main():
     set_processors(unet)
     custom_layers = AttnProcsLayers(unet.attn_processors)   # collect training layers
     #todo
-    state_dict = load_file(os.path.join('/data/checkpoint-5400', "unet/diffusion_pytorch_model.safetensors"))
+    state_dict = load_file(os.path.join('/data/vepfs/public/xianbao01.hou/model/CC-Diff/FICGen/FICGen_dota_train_e300_1e_4_bs320/checkpoint-5400', "unet/diffusion_pytorch_model.safetensors"))
 
     unet.load_state_dict(state_dict, strict=False) 
     ###based on controlnetxs
@@ -652,7 +652,7 @@ def main():
         ff_mult=4,
     )
     #todo
-    image_proj_path = os.path.join('/data/checkpoint-5400', 'ImageProjModel.pth')
+    image_proj_path = os.path.join('/data/vepfs/public/xianbao01.hou/model/CC-Diff/FICGen/FICGen_dota_train_e300_1e_4_bs320/checkpoint-5400', 'ImageProjModel.pth')
     image_proj_model.load_state_dict(torch.load(image_proj_path, map_location="cpu"))
     
     # Freeze vae and text_encoder and part of unet

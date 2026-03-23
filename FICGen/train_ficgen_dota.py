@@ -470,7 +470,7 @@ def parse_args():
         "--image_encoder_path",
         type=str,
         # default='CLIP-ViT-H-14',
-        default='/data/',
+        default='/data/vepfs/users/xianbao01.hou/.cache/huggingface/hub/models--openai--clip-vit-large-patch14/snapshots/32bd64288804d66eefd0ccbe215aa642df71cc41',
     )
     args = parser.parse_args()
     env_local_rank = int(os.environ.get("LOCAL_RANK", -1))

@@ -20,7 +20,7 @@ def get_classnames(train_data_dir):
                     "overpass", "ship", "airplane", "tenniscourt", "airport", \
                     "Expressway-Service-area", "basketballcourt", "stadium", "storagetank", "chimney", \
                     "dam", "Expressway-toll-station", "golffield", "trainstation", "harbor"]
-        data_emb_dict = torch.load('/dior_emb.pt')
+        data_emb_dict = torch.load('/data/vepfs/public/xianbao01.hou/new/RSGen_data/FICGen/datasets/DIOR_NOT_800/dior_emb.pt')
     elif "HRSC2016" in train_data_dir:
         list_of_name = ["ship"]
         data_emb_dict = torch.load('/data/hrsc_emb.pt')
@@ -28,7 +28,7 @@ def get_classnames(train_data_dir):
         list_of_name = ["plane","ship","storage-tank","baseball-diamond","tennis-court", \
                 "basketball-court","ground-track-field","harbor","bridge","large-vehicle", \
                 "small-vehicle","helicopter","roundabout","soccer-ball-field","swimming-pool"]
-        data_emb_dict = torch.load('/data/dota_emb.pt')
+        data_emb_dict = torch.load('/data/vepfs/public/xianbao01.hou/new/RSGen_data/CC-Diff/dataset/filter_train/dota_emb.pt')
     elif "exdark" in train_data_dir:
         list_of_name = ["bicycle", "boat", "bottle", "bus", "car", "cat", "chair", "cup","dog","motorbike", "people", "table"]
         data_emb_dict = torch.load('/cpfs/exdark_emb.pt')
