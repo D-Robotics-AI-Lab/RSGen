@@ -35,7 +35,7 @@ step 2. Refer to [datasets.md](./docs/datasets.md) to prepare [DIOR-RSVG](https:
 
 step 3. Refer to [train.md](./docs/train.md) for training.
 
-step 3. Refer to [eval.md](./docs/eval.md) for evaluation.
+step 4. Refer to [eval.md](./docs/eval.md) for evaluation.
 
 ## TODOs
 - [x] Release the paper on arXiv.
