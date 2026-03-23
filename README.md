@@ -31,11 +31,11 @@ RSGen consists of two key components: the Edge2Edge module, designed for generat
 ## Getting Started
 step 1. Refer to [install.md](./docs/install.md) to install the environment.
 
-step 2. Refer to datasets.md to prepare [DIOR-RSVG], [DOTA], [HRSC2016] datasets.
+step 2. Refer to [datasets.md](./docs/datasets.md) to prepare [DIOR-RSVG](https://github.com/ZhanYang-nwpu/RSVG-pytorch), [DOTA](https://captain-whu.github.io/DOTA/dataset.html), [HRSC2016](https://ieee-dataport.org/documents/hrsc2016) datasets.
 
-step 3. Refer to train.md for training.
+step 3. Refer to [train.md](./docs/train.md) for training.
 
-step 3. Refer to eval.md for evaluation.
+step 3. Refer to [eval.md](./docs/eval.md) for evaluation.
 
 ## TODOs
 - [x] Release the paper on arXiv.
