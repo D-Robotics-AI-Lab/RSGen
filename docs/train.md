@@ -1,19 +1,19 @@
 # Training and Inference
 This section uses FICGen as an example, with DOTA as the training target.
 
-### 3.1 Enter the FICGen Directory
+### 1. Enter the FICGen Directory
 
 ```bash
 cd FICGen
 ```
 
-### 3.2 Train the L2I Base Model on DOTA
+### 2. Train the L2I Base Model on DOTA
 
 ```bash
 bash dist_train_ficgen_dota.sh
 ```
 
-### 3.3 Update the Checkpoint Path
+### 3. Update the Checkpoint Path
 
 After training, modify the checkpoint loading path in `train_ficgen_fgcontrol_dota.py` so that it points to the trained **L2I base model** checkpoint.
 
@@ -27,7 +27,7 @@ state_dict = load_file(
     )
 )
 ```
-### 3.4 Train FGControl
+### 4. Train FGControl
 
 ```bash
 dist_train_ficgen_dota_fgcontrol.sh
