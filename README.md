@@ -18,7 +18,7 @@ Diffusion models have significantly mitigated the impact of annotated data scarc
 </div>
 <br>
 <div align=center>
-<img src="assets/comparison.png" height="60%" width="60%"/>
+<img src="assets/comparison.png" height="80%" width="80%"/>
 </div>
 
 
