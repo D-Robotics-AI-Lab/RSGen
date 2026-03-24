@@ -1,6 +1,6 @@
 ### Evaluation
 
-### 4.1 FID
+### 1. FID
 ```bash
 cd CC-Diff
 cd eval
@@ -14,7 +14,7 @@ Then run:
 bash fid.sh
 ```
 
-### 4.2 YOLOScore
+### 2. YOLOScore
 To evaluate YOLO Score, first convert the annotation format using `dota2yolo.py` in `eval/utils`:
 ```bash
 python eval/utils/dota2yolo.py
@@ -23,7 +23,7 @@ After that, train the model according to the training process under the `yolosco
 
 Finally, replace the validation set (val) with your own generated validation results, and then run the evaluation.
 
-### 4.3 Trainability
+### 3. Trainability
 For the third metric, you need to first create the environment. You can refer to the environment setup under `mmdet/docker`.
 
 Use `covert_dota_coco_format.py` to convert the annotations into COCO format.
