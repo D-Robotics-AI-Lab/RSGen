@@ -2,7 +2,7 @@
 <h1>RSGen: Enhancing Layout-Driven Remote Sensing Image Generation with Diverse Edge Guidance</h1>
 Xianbao Hou<sup>1, 2, ∗</sup>, Yonghao He<sup>2, ∗, ‡</sup>, Zeyd Boukhers<sup>3</sup>, John See<sup>4</sup>, Hu Su<sup>5</sup>, Wei Sui<sup>2, †</sup>,  Cong Yang<sup>1, †</sup>
 
-<sup>1</sup> Soochow University, <sup>2</sup> D-Robotics, <sup>3</sup> Fraunhofer Institute for Applied Information Technology, <sup>4</sup> School of Mathematical and Computing Sciences, <sup>5</sup> Institute of Automation, Chinese Academy of Sciences
+<sup>1</sup> Soochow University, <sup>2</sup> D-Robotics, <sup>3</sup> Fraunhofer Institute for Applied Information Technology, <sup>4</sup>  Heriot-Watt University Malaysia, <sup>5</sup> Institute of Automation, Chinese Academy of Sciences
 
 <sup>∗</sup> Equal Contribution, <sup>†</sup> Corresponding Author, <sup>‡ </sup> Project Lead
 
